@@ -1,0 +1,45 @@
+<title>About App</title>
+
+{% include "base.html" %}
+
+{% block body %}
+<body class="bg-gray-100 text-gray-800">
+
+    <div class="container mx-auto py-8 px-4">
+        <h1 class="text-3xl font-bold text-center mb-8">About the Health Prediction App</h1>
+        
+        <section class="bg-white p-6 rounded-lg shadow-lg">
+            <h2 class="text-2xl font-bold text-gray-800 mb-4">Overview</h2>
+            <p class="text-gray-700 mb-4">
+                The Health Prediction App is a user-friendly web application designed to help individuals monitor and predict their health status based on various physiological parameters. By leveraging advanced machine learning algorithms and expert systems, the app provides accurate health predictions and actionable recommendations.
+            </p>
+            
+            <h3 class="text-xl font-semibold text-gray-800 mb-2">Key Features:</h3>
+            <ul class="list-disc list-inside text-gray-700 mb-4">
+                <li>User-friendly interface for easy data entry.</li>
+                <li>Comprehensive data collection, including age, gender, and health metrics.</li>
+                <li>Accurate health predictions based on entered data.</li>
+                <li>Integration of machine learning, expert systems, and recommendation systems.</li>
+                <li>Secure handling of user data.</li>
+                <li>Responsive design for use on various devices.</li>
+            </ul>
+
+            <h3 class="text-xl font-semibold text-gray-800 mb-2">Technology Stack:</h3>
+            <p class="text-gray-700">
+                - Machine Learning: For predictive analysis.<br>
+                - Expert Systems: For recommendations.<br>
+                - Natural Language Processing (NLP): For enhancing user interaction.<br>
+                - Flask: Backend development.<br>
+                - SQLite3: Database.<br>
+                - HTML5, Tailwind CSS, JavaScript: Frontend development.
+            </p>
+        </section>
+    </div>
+
+    <footer class="bg-gray-800 text-gray-100 py-4">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2024 Health Prediction App. All rights reserved.</p>
+        </div>
+    </footer>
+
+{% endblock body %}
